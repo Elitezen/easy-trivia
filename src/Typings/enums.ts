@@ -83,9 +83,9 @@ export enum QuestionAmountRange {
  * @enum
  */
 export enum QuestionDifficulties {
-  easy = "easy",
-  medium = "medium",
-  hard = "hard",
+  Easy = "easy",
+  Medium = "medium",
+  Hard = "hard",
 }
 
 /**
@@ -93,8 +93,8 @@ export enum QuestionDifficulties {
  * @enum
  */
 export enum QuestionTypes {
-  multiple = "multiple",
-  boolean = "boolean",
+  Multiple = "multiple",
+  Boolean = "boolean",
 }
 
 /**
@@ -102,10 +102,10 @@ export enum QuestionTypes {
  * @enum
  */
 export enum QuestionEncodings {
-  base64 = "base64",
-  none = "none",
-  url3986 = "url3986",
-  urlLegacy = "urlLegacy",
+  Base64 = "base64",
+  None = "none",
+  Url3986 = "url3986",
+  UrlLegacy = "urlLegacy",
 }
 
 /**
